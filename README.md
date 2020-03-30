@@ -1,6 +1,7 @@
 # Neuron Density Analysis
 
 Neuron density and heatmap analysis tools used for sensory neuron analysis in **Integrins protect nociceptive neurons in models of paclitaxel-mediated peripheral sensory neuropathy** 
+
 doi: https://doi.org/10.1101/829655
 
 Step 1 and 2 (Fiji/ImageJ macros):
