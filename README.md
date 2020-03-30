@@ -4,8 +4,6 @@ Neuron density and heatmap analysis tools used for sensory neuron analysis in **
 
 doi: https://doi.org/10.1101/829655
 
-![Example output](https://github.com/lahammond/Neuron_Density_Analysis/blob/master/Example_output.jpg)
-
 Step 1 and 2 (Fiji/ImageJ macros):
   - Use 1_Neuron_Density_Heatmap_Creation_Kernel.ijm on a folder containing proprocessed thresholded neuron images
       - For each neuron image, the soma will be detected and removed before density calculations are performed on the remaining arbours using the defined area size (e.g. 50 x 50 microns)
@@ -19,3 +17,5 @@ Step 1 and 2 (Fiji/ImageJ macros):
 Step 3 (Python Jupyter Notebook):
 - Use 3_Density and convex hull summary on the \Density_Heatmap subfolder
   - This notebook will generate a histogram for each density image and a summary table for the full dataset (convex hull area, peak density, total pixels with density zero)
+
+![Example output](https://github.com/lahammond/Neuron_Density_Analysis/blob/master/Example_output.jpg)
