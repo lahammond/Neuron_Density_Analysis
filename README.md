@@ -5,7 +5,6 @@ Neuron density and heatmap analysis tools used for sensory neuron analysis in **
 doi: https://doi.org/10.1101/829655
 
 ![Example output](https://github.com/lahammond/Neuron_Density_Analysis/blob/master/Example_output.jpg)
-Format: ![Alt Text](url)
 
 Step 1 and 2 (Fiji/ImageJ macros):
   - Use 1_Neuron_Density_Heatmap_Creation_Kernel.ijm on a folder containing proprocessed thresholded neuron images
